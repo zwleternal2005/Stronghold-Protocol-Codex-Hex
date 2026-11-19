@@ -60,7 +60,7 @@ export function ReleaseMarkdown({ text }) {
       const code = [];
       while (++i < lines.length && !/^```/.test(lines[i])) code.push(lines[i]);
       blocks.push(html`<pre><code>${code.join('\n')}</code></pre>`);
-    } else if (/^#{3,6} /.test(line)) {
+    } else if (/^#{2,6} /.test(line)) {
       const [, hashes, title] = line.match(/^(#+) (.*)$/);
       blocks.push(h(`h${hashes.length}`, {}, inline(title)));
     } else if (/^[-*] /.test(line)) {
