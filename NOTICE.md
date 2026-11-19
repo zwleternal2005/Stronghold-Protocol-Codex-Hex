@@ -16,10 +16,10 @@
 ## 声明
 
 - 本项目是玩家自制的**非官方同人作品**，与权利方没有任何关系，未获其授权或认可。
-- **仅供学习交流与个人非商业使用，严禁任何形式的盈利**。
+- **仅供学习交流与个人非商业使用，禁止任何形式的商业化**；玩家自愿、不附任何对价的捐赠（打赏）可以接受，仅用于补贴开发与运行成本，不构成付费服务。
 - 权利人如认为本项目侵犯其权益，请通过 Issue 联系，我们会**立即删除**相关内容。
 - 本项目按「现状」提供，**不提供任何担保**，使用风险自负。
 
 ## Upstream notice
 
-This repository is a hex-mod derivative of [sganggs/Stronghold-Protocol](https://github.com/sganggs/Stronghold-Protocol) (GPL-3.0-or-later). All Arknights names, art, audio, text and data belong to Hypergryph / Yostar and their affiliates and are not covered by this project's GPL-3.0 licence. Non-commercial fan work only.
+This repository is a hex-mod derivative of [sganggs/Stronghold-Protocol](https://github.com/sganggs/Stronghold-Protocol) (GPL-3.0-or-later). All Arknights names, art, audio, text and data belong to Hypergryph / Yostar and their affiliates and are not covered by this project's GPL-3.0 licence. No commercial use; voluntary, no-strings donations for development and hosting costs are accepted.
