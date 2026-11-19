@@ -1,0 +1,20 @@
+{
+  "title": "卫戍协议：规程 海克斯模组 启动器",
+  "displayVersion": "规程 海克斯模组 v0.1.4",
+  "port": 3140,
+  "profile": "regulation",
+  "defaultVersion": "act3autochess@V3_1",
+  "allowedVersions": [
+    "act3autochess@V3_1"
+  ],
+  "releases": {
+    "act3autochess@V3_1": "0.1.4"
+  },
+  "updateUrl": "https://pan.quark.cn/s/4bd49b5e625f",
+  "updateScope": "规程",
+  "update": {
+    "repo": "zwleternal2005/Stronghold-Protocol-Codex-Hex",
+    "panUrl": "https://pan.quark.cn/s/4bd49b5e625f",
+    "groupUrl": "https://qm.qq.com/q/UxXFWMLHCo"
+  }
+}

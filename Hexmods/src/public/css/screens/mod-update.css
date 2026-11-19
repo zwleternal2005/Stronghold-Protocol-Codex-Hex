@@ -1,0 +1,53 @@
+/* public/css/screens/mod-update.css — 标题屏的「网盘有新版本」提醒（public/js/ui/modUpdate.js）。
+   入口是一条金色小牌子，和下面的模组徽标（.title-mod-badge）同宽级、同一处；窗口走 components.css 的
+   .modal（tone="gold"），这里只排版里面的版本对比与说明。尺寸单位跟标题屏一致（rem × --t），小屏整体缩放。 */
+
+.title-update {
+  display: inline-flex;
+  align-items: center;
+  gap: .08rem;
+  margin-top: .1rem;
+  padding: .05rem .13rem;
+  border: 1px solid rgba(255, 198, 0, .5);
+  background: linear-gradient(180deg, rgba(46, 35, 8, .72), rgba(24, 19, 6, .78));
+  color: var(--gold-2);
+  font-size: calc(.155 * var(--t));
+  letter-spacing: .08em;
+  cursor: pointer;
+  transition: border-color .16s, background .16s, box-shadow .16s;
+  animation: rise-in 600ms 320ms var(--ease-out) backwards;
+}
+.title-update:hover,
+.title-update:focus-visible {
+  border-color: var(--gold);
+  background: linear-gradient(180deg, rgba(62, 47, 10, .85), rgba(32, 25, 8, .9));
+  box-shadow: 0 0 .22rem rgba(255, 198, 0, .18);
+}
+.title-update b { color: #fff3d0; font-weight: 700; letter-spacing: .04em; }
+.title-update__icon { width: .17rem; height: .17rem; color: var(--gold); }
+
+.modupd { display: flex; flex-direction: column; gap: .12rem; }
+.modupd__ver {
+  display: flex;
+  align-items: baseline;
+  gap: .12rem;
+  padding-bottom: .08rem;
+  border-bottom: 1px solid var(--line-2);
+  font-family: var(--font-num, inherit);
+  letter-spacing: .04em;
+}
+.modupd__cur { color: var(--text-dim); font-size: calc(.24 * var(--t)); text-decoration: line-through; }
+.modupd__arrow { color: var(--text-dim); font-size: calc(.2 * var(--t)); }
+.modupd__new { color: var(--gold); font-size: calc(.34 * var(--t)); font-weight: 800; }
+.modupd__file {
+  display: flex;
+  align-items: center;
+  gap: .07rem;
+  font-size: calc(.15 * var(--t));
+  color: var(--text-md);
+  word-break: break-all;
+}
+.modupd__file em { color: var(--gold-2); font-style: normal; }
+.modupd__ico { width: .16rem; height: .16rem; color: var(--gold-2); flex: none; }
+.modupd__hint { font-size: calc(.16 * var(--t)); line-height: 1.65; color: var(--text-md); }
+.modupd__hint--soft { color: var(--text-dim); font-size: calc(.15 * var(--t)); }
