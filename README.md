@@ -14,3 +14,8 @@
 ## Disclaimer
 
 An **unofficial, non-commercial fan work**, not affiliated with or endorsed by Hypergryph or Yostar. All Arknights names, art, audio, text and data belong to their respective owners and are **not** covered by this project's code licence. For study and personal non-commercial use only — no selling, paid distribution, paid servers or any other monetisation. A hex mod built on the fan remake [sganggs/Stronghold-Protocol](https://github.com/sganggs/Stronghold-Protocol) (GPL-3.0); its notices apply here as well. Provided "as is", without warranty.
+
+## 许可证
+
+- 代码：[GPL-3.0-or-later](LICENSE)
+- 素材版权与上游归属：[NOTICE.md](NOTICE.md)
